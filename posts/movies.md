@@ -1,5 +1,5 @@
 ---
-title: 'Gallery redux, now with less hell'
+title: 'The Saga of the SeQueL gallery Redux'
 date: '2022-10-03'
 ---
 

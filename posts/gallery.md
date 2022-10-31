@@ -1,5 +1,5 @@
 ---
-title: 'The photo gallery...From Hell'
+title: 'The photo gallery...Or a lesson in perseverance'
 date: '2022-09-19'
 ---
 
