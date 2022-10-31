@@ -82,7 +82,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  width: 20rem
 }
 
 .card:hover,
@@ -101,6 +101,16 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+}
+
+.postHolder{
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  columns: 3;
+  position: relative;
+  align-content: center;
+  justify-content: center;
 }
 
 .logo {
