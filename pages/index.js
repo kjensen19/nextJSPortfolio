@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi, I'm Kyle. I'm a software engineer, a collector of information only useful for cocktail parties and crossword puzzles, and a consumer of caffeine in all forms.</p>
+        <p>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for cocktail parties and crossword puzzles, and a consumer of caffeine in all forms.</p>
         <p>
           More clever text goes here
         </p>
