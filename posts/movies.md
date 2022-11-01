@@ -1,6 +1,8 @@
 ---
 title: 'The Saga of the SeQueL gallery Redux'
 date: '2022-10-03'
+img: '/images/movieGallery.png'
+
 ---
 
 **Saga Movie Gallery**

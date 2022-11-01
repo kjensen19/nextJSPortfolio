@@ -1,6 +1,7 @@
 ---
 title: 'A new challenger has appeared... Or please hire me'
 date: '2022-10-26'
+img: '/images/SRimg.png'
 ---
 
 ***API Based Coding Challenge**

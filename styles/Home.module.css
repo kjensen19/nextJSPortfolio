@@ -75,19 +75,25 @@
 
 .card {
   margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+  text-align: center;
   color: inherit;
   text-decoration: none;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  width: 20rem;
+  width: 18rem;
+  height: 22rem;
   border: 5px;
   color: #FFF;
   background: #000;
   background-clip: padding-box; /* !importanté */
   border: solid 5px transparent; /* !importanté */
   border-radius: 1em;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .card:before {
@@ -97,13 +103,12 @@
     z-index: -1;
     margin: -5px; /* !importanté */
     border-radius: inherit; /* !importanté */
-    background: linear-gradient(to right, red, orange);
+    background: linear-gradient(to right, orange, red, orange);
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
   border-color: #0070f3;
 }
 
@@ -126,6 +131,10 @@
   position: relative;
   align-content: center;
   justify-content: center;
+}
+
+.img{
+  margin: 1rem 0rem 1rem 0rem
 }
 
 .logo {

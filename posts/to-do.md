@@ -1,6 +1,8 @@
 ---
 title: 'To do or not to do, that is the eternal question'
 date: '2022-09-12'
+img: '/images/todoImg.png'
+
 ---
 
 **A** combination **todo** and **calendar** app that displays todo items on their targeted completion days. 

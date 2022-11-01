@@ -1,6 +1,8 @@
 ---
-title: 'Tell my how you feel, how you really really feel'
+title: 'Tell me how you feel, how you really really feel'
 date: '2022-09-26'
+img: '/images/DarkMode.png'
+
 ---
 
 **Feedback Loop**

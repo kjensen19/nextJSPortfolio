@@ -5,6 +5,8 @@ import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
 import homeStyles from '../styles/Home.module.css'
+import Image from 'next/image';
+
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -30,16 +32,25 @@ export default function Home({ allPostsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Projects</h2>
         <div className={homeStyles.postHolder}>
-          {allPostsData.map(({ id, date, title }) => (
-          <div className={homeStyles.card} key={id}>
-            <Link href={`/posts/${id}`}>
-              {title}
-            </Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
-          </div>
+          {allPostsData.map(({ id, date, title, img }) => (
+          <Link href={`/posts/${id}`} key={id}>
+            <div className={homeStyles.card} >
+              
+                {title}
+              
+              <Image
+                priority
+                src={img}
+                height={144}
+                width={200}
+                alt=""
+                className={homeStyles.img}
+              />
+              <small className={utilStyles.lightText}>
+                <Date dateString={date} />
+              </small>
+            </div>
+          </Link>
         
           ))}
         </div>

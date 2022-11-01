@@ -1,6 +1,8 @@
 ---
 title: 'The photo gallery...Or a lesson in perseverance'
 date: '2022-09-19'
+img: '/images/galleryImg.png'
+
 ---
 
 **React Photo Gallery**

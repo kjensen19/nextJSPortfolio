@@ -1,6 +1,8 @@
 ---
 title: 'Server Side Calculator or a start of sorts'
 date: '2022-09-05'
+img: '/images/calcImg.png'
+
 ---
 
 **Server Side Calculator** A basic calculator designed to collect inputs on the client side, send them to the server where the calculations are done and the results are sent back and rendered to the DOM. Can conduct basic math as well as follow basic calculator logic. Potential issues were addressed throughout development: 
