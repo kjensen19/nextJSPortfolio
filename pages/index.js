@@ -24,9 +24,9 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for cocktail parties and crossword puzzles, and a consumer of caffeine in all forms.</p>
+        <p>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for cocktail parties and crossword puzzles, a lover of the oxford comma, and a consumer of coffee in all forms.</p>
         <p>
-          More clever text goes here
+          My passion is learning, and this collection of projects is meant to showcase my trajectory as a developer. I had fun with these and I am excited to build on that knowledge.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
