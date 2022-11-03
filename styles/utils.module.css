@@ -27,6 +27,7 @@
     font-size: 1.2rem;
     line-height: 1.5;
     justify-content: center;
+    align-items: center;
   }
   
   .borderCircle {
@@ -55,4 +56,15 @@
   
   .lightText {
     color: #666;
+  }
+
+  .socialFrame {
+    display: flex;
+    flex-flow:row;
+    justify-items: space-between;
+    align-items: space-between;
+  }
+
+  .socImg {
+    margin: 0 1rem 0 1rem;
   }

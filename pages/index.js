@@ -24,6 +24,30 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
+        <div className={utilStyles.socialFrame}>
+          <a href='https://github.com/kjensen19' target="_blank">
+              <Image
+                priority
+                src="/images/GitHub-Mark-Light-32px.png"
+                height={32}
+                width={32}
+                alt=""
+                className={utilStyles.socImg}
+                
+              
+              />
+              </a>
+              <a href='www.linkedin.com/in/kyle-jensen-solutions' target="_blank">
+              <Image
+                priority
+                src="/images/In-White-34.png"
+                height={34}
+                width={34}
+                alt=""
+                className={utilStyles.socImg}
+                />
+                </a>
+        </div>
         <p>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for cocktail parties and crossword puzzles, a lover of the oxford comma, and a consumer of coffee in all forms.</p>
         <p>
           My passion is learning, and this collection of projects is meant to showcase my trajectory as a developer. I had fun with these and I am excited to build on that knowledge.
