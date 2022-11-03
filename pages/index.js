@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <div className={utilStyles.socialFrame}>
-          <a href='https://github.com/kjensen19' target="_blank">
+          <a href='https://github.com/kjensen19' target="_blank" rel="noreferrer">
               <Image
                 priority
                 src="/images/GitHub-Mark-Light-32px.png"
@@ -37,7 +37,7 @@ export default function Home({ allPostsData }) {
               
               />
               </a>
-              <a href='www.linkedin.com/in/kyle-jensen-solutions' target="_blank">
+              <a href='www.linkedin.com/in/kyle-jensen-solutions' target="_blank" rel="noreferrer">
               <Image
                 priority
                 src="/images/In-White-34.png"
