@@ -1,5 +1,5 @@
 ---
-title: 'The Saga of the SeQueL gallery Redux'
+title: 'The gallery redux, now with 200% less hell'
 date: '2022-10-03'
 img: '/images/movieGallery.png'
 

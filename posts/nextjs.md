@@ -17,4 +17,4 @@ img: '/images/nextjsImg.png'
 
 https://github.com/kjensen19/nextJSPortfolio
 
-Also here
+Also you are already here
