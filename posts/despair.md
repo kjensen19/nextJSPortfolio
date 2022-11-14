@@ -1,7 +1,7 @@
 ---
 title: "Okay. All right, now, let's see. Where were we? Oh, yes. In the Pit of Despair!"
 date: '2022-11-12'
-img: ''
+img: '/images/DF.png'
 ---
 
 ***On the hiring process, live technicals, attachment, and (not) getting the offer**
@@ -20,11 +20,9 @@ The short explanation is that, at that point, the wheels came off. I was inexpli
     - I know how to do this, what is wrong with me???
     - etc
 
-What I showed to them made me look inflexible, ineffective, incapable, incommunicative, and probably at least a little bit insane. It was not my best moment, but I did the best job I could describing how it should be working after some prompting and then, mercifully they let that part end and I wrapped up with the director which felt good. So I was, in spite of my abject failure, a little hopeful that I would get the chance to show them what I'm actually capable of. And then two days later I got the dreaded 'Sadly, XYZ has declined to make an offer'.
+What I showed to them made me look inflexible, ineffective, incapable, incommunicative, and probably at least a little bit insane. It was not my best moment. Mercifully that part ended and I wrapped up with the director which felt good. So I was, in spite of my abject failure, hopeful that I would get the chance to show what I'm actually capable of. And then two days later I got the dreaded 'Sadly, XYZ has declined to make an offer'.
 
-Failing is awful, and failing because I blew it even more awful. And putting in a bunch of time and effort to a job I didn't get is awful. And getting attached to a company and then not getting an offer is awful. And having to turn around and start looking again after a month of thinking I found something is awful. Getting attached to things is awful. Searching for jobs is awful. Applying to jobs to just get auto-rejected by a robot is awful. Getting rejected in any context is awful. And it is really hard not to feel like all of that awfulness is a part of me-- that those things are awful because I'm awful, but they aren't and neither am I.
-
-I'm incredibly grateful that I have people in my life who remind me of all the things that seem cliche:
+Failing is awful, and failing because I blew it even more awful. And putting in a bunch of time and effort to a job I didn't get is awful. And getting attached to a company and then not getting an offer is awful. And having to turn around and start looking again after a month of thinking I found something is awful. Getting attached to things is awful. Searching for jobs is awful. Applying to jobs to just get auto-rejected by a robot is awful. Getting rejected in any context is awful. And it is really hard not to feel like all of that awfulness is a part of me-- that those things are awful because I'm awful, but they aren't and neither am I. I'm incredibly grateful that I have people in my life who remind me of all the things that seem cliche:
     - I'm not awful
     - It is going to be okay
     - I'll get the next one
