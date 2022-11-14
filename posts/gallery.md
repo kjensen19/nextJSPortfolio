@@ -1,5 +1,5 @@
 ---
-title: 'The photo gallery...From Hell'
+title: 'The photo gallery...From hell'
 date: '2022-09-19'
 img: '/images/galleryImg.png'
 
