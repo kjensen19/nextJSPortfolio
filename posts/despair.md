@@ -23,10 +23,12 @@ The short explanation is that, at that point, the wheels came off. I was inexpli
 What I showed to them made me look inflexible, ineffective, incapable, incommunicative, and probably at least a little bit insane. It was not my best moment. Mercifully that part ended and I wrapped up with the director which felt good. So I was, in spite of my abject failure, hopeful that I would get the chance to show what I'm actually capable of. And then two days later I got the dreaded 'Sadly, XYZ has declined to make an offer'.
 
 Failing is awful, and failing because I blew it even more awful. And putting in a bunch of time and effort to a job I didn't get is awful. And getting attached to a company and then not getting an offer is awful. And having to turn around and start looking again after a month of thinking I found something is awful. Getting attached to things is awful. Searching for jobs is awful. Applying to jobs to just get auto-rejected by a robot is awful. Getting rejected in any context is awful. And it is really hard not to feel like all of that awfulness is a part of me-- that those things are awful because I'm awful, but they aren't and neither am I. I'm incredibly grateful that I have people in my life who remind me of all the things that seem cliche:
+
     - I'm not awful
     - It is going to be okay
     - I'll get the next one
     - They made a mistake
     - I saw a posting at a cool place you should apply at
     - It happened to me
+    
 In short people who have reminded me that even though it feels awful right now, it isn't going to feel that way forever. I am truly, deeply indebted to my family, friends and the amazing group of developers in L'Engle... Which is why I brought failure donuts to class yesterday, because failure doesn't need to be hidden especially if its visiblity makes it easier for people to remember that they are not their failures.  

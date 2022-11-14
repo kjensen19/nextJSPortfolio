@@ -50,8 +50,10 @@ export default function Home({ allPostsData }) {
         </div>
         <p>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for cocktail parties and crossword puzzles, a lover of the oxford comma, and a consumer of coffee in all forms.</p>
         <p>
-          My passion is learning, and this collection of projects is meant to showcase my trajectory as a developer. I had fun with these and I am excited to build on that knowledge.
+          My passion is learning, and this collection of projects is meant to showcase my trajectory as a developer. From a simple, slightly garish calculator to this obviously sophisticated piece of modern web design in a scant two months.
         </p>
+        <h2 className={utilStyles.headingLg}>Skills</h2>
+        <p>Javascript React Redux Sagas NodeJS HTML CSS SQL NextJS MaterialUI Bootstrap APIs GIT GitHub</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Projects</h2>
