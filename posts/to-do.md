@@ -12,4 +12,4 @@ img: '/images/todoImg.png'
 - **Designed** to address the need for both apps (because clearly there aren't any other options). I also used it as an opportunity to explore **bootstrap** **modals** and **offcanvases**.
 
 
-https://github.com/kjensen19/weekend-sql-to-do-list
+[ToDo List Repo](https://github.com/kjensen19/weekend-sql-to-do-list)

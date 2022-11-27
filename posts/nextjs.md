@@ -15,6 +15,6 @@ img: '/images/nextjsImg.png'
 
 
 
-https://github.com/kjensen19/nextJSPortfolio
+[This Page's Repo](https://github.com/kjensen19/nextJSPortfolio)
 
 Also you are already here

@@ -9,4 +9,4 @@ img: '/images/soloImg.png'
 README Goes here (when it is written)
 
 
-https://github.com/kjensen19/MindfulnessMinder
+[Solo Repo](https://github.com/kjensen19/MindfulnessMinder)

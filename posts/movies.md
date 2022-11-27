@@ -14,4 +14,4 @@ The base functionality includes:
 - Dark/light mode toggle
 - Basic navigation in a top bar.
 
-https://github.com/kjensen19/Weekend-Movie-Sagas
+[Movie Gallery Repo](https://github.com/kjensen19/Weekend-Movie-Sagas)

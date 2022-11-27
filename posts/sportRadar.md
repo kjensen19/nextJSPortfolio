@@ -12,4 +12,4 @@ img: '/images/SRimg.png'
 - This file is sent back to the client as a **download**.
 
 
-https://github.com/kjensen19/srAPIChallenge
+[NHL API Repo](https://github.com/kjensen19/srAPIChallenge)

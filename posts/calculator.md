@@ -19,4 +19,4 @@ img: '/images/calcImg.png'
 - **C** (no, not that C) clears current inputs and AC clears all data both current and historical on the server (via a delete request)
 
 
-https://github.com/kjensen19/server-side-calculator
+[Calculator Repo](https://github.com/kjensen19/server-side-calculator)
