@@ -57,6 +57,30 @@ export default function Layout({ children, home }) {
               <Link href="/" className={utilStyles.colorInherit}>
                 {name}
               </Link>
+              <div className={utilStyles.socialFrame}>
+          <a href='https://github.com/kjensen19' target="_blank" rel="noreferrer">
+              <Image
+                priority
+                src="/images/GitHub-Mark-Light-32px.png"
+                height={32}
+                width={32}
+                alt=""
+                className={utilStyles.socImg}
+                
+              
+              />
+              </a>
+              <a href='www.linkedin.com/in/kyle-jensen-solutions' target="_blank" rel="noreferrer">
+              <Image
+                priority
+                src="/images/In-White-34.png"
+                height={34}
+                width={34}
+                alt=""
+                className={utilStyles.socImg}
+                />
+                </a>
+        </div>
 
             </h2>
           </>
