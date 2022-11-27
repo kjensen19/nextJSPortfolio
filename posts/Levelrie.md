@@ -7,7 +7,7 @@ img: '/images/Levelrie.png'
 
 **Client Project: Levelrie**
 
-The capstone project at Prime is a group project with a real world client to build an application for them. In this case we were tasked with building a "tinder for outfits" for the incomparable [Andrea Zechmann](https://www.linkedin.com/in/andrea-zechmann/). I was able to dedicate a lot of time to component creation and theming to insure that our final product was consistet with the client and the designers vision, based on Figma wireframes and client feedback. I also had responsibility for the fullstack functionality of the cart. Our amazing team consisted of:
+The capstone project at Prime is a group project with a real world client to build an application for them. In this case we were tasked with building a "tinder for outfits" for the incomparable [Andrea Zechmann](https://www.linkedin.com/in/andrea-zechmann/). I was able to dedicate a lot of time to component creation and theming to insure that our final product was consistent with the client and the designers vision, based on Figma wireframes and client feedback. I also had responsibility for the fullstack functionality of the cart. Our amazing team consisted of:
 
 -  [Chameng **$ All The Things** Vang](https://www.linkedin.com/in/chamengvang/)
 -  [Maggie **MUI Master/Grid Whisperer** Whitlock](https://www.linkedin.com/in/maggieawhitlock/)
