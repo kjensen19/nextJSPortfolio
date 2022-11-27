@@ -7,7 +7,7 @@ img: '/images/Levelrie.png'
 
 **Client Project: Levelrie**
 
-The capstone project at Prime is a group project with a real world client to build an application for them. In this case we were tasked with building a "tinder for outfits" for the incomparable Andrea Zechmann (https://www.linkedin.com/in/andrea-zechmann/). My team consisted of:
+The capstone project at Prime is a group project with a real world client to build an application for them. In this case we were tasked with building a "tinder for outfits" for the incomparable Andrea Zechmann (https://www.linkedin.com/in/andrea-zechmann/). I was able to dedicate a lot of time to component creation and theming to insure that our final product was consistet with the client and the designers vision, based on Figma wireframes and client feedback. I also had responsibility for the fullstack functionality of the cart. Our amazing team consisted of:
 
 -  Chameng **$ All The Things** Vang (https://www.linkedin.com/in/chamengvang/)
 -  Maggie **MUI Master/Grid Whisperer** Whitlock (https://www.linkedin.com/in/maggieawhitlock/)
@@ -28,7 +28,30 @@ Levelrie: The only strings are keeping the clothes together
 Levelrie: Clothes you’ll want to take out again
 Levelrie: Self-respect enhancing
 
+Here's a summary of what we were trying to accomplish from our Readme
 Do you ever look at someone and think “I would so swipe right”…On their outfit? We’ve all been there, the problem is getting that look is a painful process that too often ends in frustration, disappointment, and another day of wondering what to wear. Levelrie aims to change all that by providing a simple, centralized and frictionless way to purchase the perfect look for any occasion without the weight of quizzes, extensive profiles, visiting multiple sites or searching desperately for inspiration. Instead of painstakingly assembling an outfit by browsing page after page of nearly identical items, Levelrie presents a new paradigm: create an account and you will be presented with a stylist curated collection of outfits made up of hand selected items from top fashion retailers. Don’t love the look? Swipe left for something new. Need it? Swipe right and the whole outfit will be added to your cart, ready to be purchased and shipped to your door. Levelrie, because buying clothes online should be fun and easy.
 
 
+Tech used included:
+- [SQL](https://www.w3schools.com/sql/)
+- [Heroku](https://www.heroku.com/)
+- [Swipejs](https://swipe.js.org/)
+- [Passport](https://www.npmjs.com/package/passport)
+- [Cloudinary](https://cloudinary.com/)
+- [React-Slick](https://www.npmjs.com/package/react-slick)
+- [React-Tinder-Card](https://www.npmjs.com/package/react-tinder-card)
+
+<a href="https://www.w3schools.com/w3css/defaulT.asp"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="40px" width="40px" /></a>
+<a href="https://expressjs.com/"><img src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg" height="40px" width="40px" /></a>
+<a href="https://www.w3schools.com/html/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" height="40px" width="40px" /></a>
+<a href="https://www.w3schools.com/js/default.asp"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" height="40px" width="40px" /></a>
+<a href="https://www.postgresql.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" height="40px" width="40px" /></a>
+<a href="https://reactjs.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" height="40px" width="40px" /></a>
+<a href="https://redux.js.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" height="40px" width="40px" /></a>
+<a href="https://www.figma.com/?fuid="><img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" height="40px" width="40px" /></a>
+<a href="https://material-ui.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" height="40px" width="40px" /></a>
+<a href="https://nodejs.org/en/"><img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-plain.svg" height="40px" width="40px" /></a>
+
+
+Deployed at: https://levelrie.herokuapp.com/#/home
 https://github.com/kjensen19/Levelrie
