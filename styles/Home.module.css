@@ -106,11 +106,12 @@
     background: linear-gradient(to right, orange, red, orange);
 }
 
-.card:hover,
+/* .card:hover,
 .card:focus,
 .card:active {
-  border-color: #0070f3;
-}
+  background: linear-gradient(to right, rgb(22, 214, 58), rgb(71, 147, 224), rgb(70, 16, 150));
+
+} */
 
 .card h2 {
   margin: 0 0 1rem 0;
