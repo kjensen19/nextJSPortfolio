@@ -48,9 +48,9 @@ export default function Home({ allPostsData }) {
                 />
                 </a>
         </div>
-        <p>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for cocktail parties and crossword puzzles, a lover of the oxford comma, and a consumer of coffee in all forms.</p>
+        <p>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for cocktail parties and crossword puzzles, a lover of the oxford comma, and a consumer of coffee (and caffeine) in all forms. In what sometimes seems like another life I studied literature and my bookshelves still run the gamut from Rumi, to Sophocles, to Neal Stephenson, and everything in-between. In my downtime I love to cook, re-play old videogames, and spend time with my family.</p>
         <p>
-          My passion is learning and this collection of projects is meant to showcase my trajectory as a developer. From a simple, slightly garish calculator to this obviously sophisticated piece of modern web design in a scant few months. My 
+          My passion is learning and this collection of projects is meant to showcase my trajectory as a developer. From a simple, slightly garish calculator to this obviously sophisticated piece of modern web design in a scant few months. After completing the accelerated fullstack program at Prime Digital Academy I'm looking for new problems to solve and exploring technologies that interest me: NextJS, OOP, testing frameworks cypress/jest/jmeter, and anything else that strikes my fancy! If you're looking for a passionate and dedicated developer who wants to learn, please check out my projects, github, and/or Linkedin and then feel free to contact me: kjensen19@gmail.com .
         </p>
         <h2 className={utilStyles.headingLg}>Skills</h2>
         <p>Javascript React Redux Sagas NodeJS HTML CSS SQL NextJS MaterialUI Bootstrap APIs GIT GitHub</p>
