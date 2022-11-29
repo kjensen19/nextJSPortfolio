@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
-          name="description"
+          name="portfolio"
           content="Hire this webDev!"
         />
         <meta
