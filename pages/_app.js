@@ -3,6 +3,8 @@ import { Inter } from '@next/font/google'
 import { AnimatePresence } from 'framer-motion'
 
 const inter = Inter({ subsets: ['latin'] })
+import { Analytics } from '@vercel/analytics/react';
+
 
 function MyApp({ Component, pageProps, router }) {
   return(    <>
@@ -14,6 +16,7 @@ function MyApp({ Component, pageProps, router }) {
     <AnimatePresence exitBeforeEnter initial={false} onExitComplete={() => window.scrollTo(0, 0)}>
       <Component {...pageProps} key={router.asPath} />
     </AnimatePresence>
+    <Analytics />
   </>)
 }
 
