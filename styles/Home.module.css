@@ -134,6 +134,34 @@
   justify-content: center;
 }
 
+.buildingBlocks {
+  height: 100vh;
+  display: flex;
+  flex-flow: row;
+}
+
+.content{
+  width: 40vw;
+  border: .5rem solid white;
+  border-radius: 2rem;
+  background: linear-gradient(to right, rgb(22, 214, 58), rgb(71, 147, 224), rgb(70, 16, 150));
+  height: fit-content;
+  padding: .5rem;
+  font-size: 2rem;
+}
+
+.quoteContainer{
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+.quote{
+  font-size: 2rem;
+  border: .5rem solid white;
+  border-radius: 2rem;
+  padding: .25rem;
+}
+
 .img{
   margin: 1rem 0rem 1rem 0rem
 }

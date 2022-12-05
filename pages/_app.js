@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps, router }) {
         font-family: ${inter.style.fontFamily};
       }
     `}</style>
-    <AnimatePresence exitBeforeEnter initial={false} onExitComplete={() => window.scrollTo(0, 0)}>
+    <AnimatePresence mode='wait' initial={false} onExitComplete={() => window.scrollTo(0, 0)}>
       <Component {...pageProps} key={router.asPath} />
     </AnimatePresence>
     <Analytics />

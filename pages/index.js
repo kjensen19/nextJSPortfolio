@@ -48,14 +48,22 @@ export default function Home({ allPostsData }) {
                 />
                 </a>
         </div>
-        <p>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for cocktail parties and crossword puzzles, a lover of the oxford comma, and a consumer of coffee and caffeine in all forms. In what sometimes seems like another life I studied literature and my bookshelves still run the gamut from Rumi, to Sophocles, to Neal Stephenson, and everything in-between. In my downtime I love to cook, re-play old videogames, and spend time with my family.</p>
-        <p>
-          My passion is learning and this collection of projects is meant to showcase my trajectory as a developer. From a simple, slightly garish calculator to this obviously sophisticated piece of modern web design in a scant few months. After completing the accelerated fullstack program at Prime Digital Academy I am looking for new problems to solve and exploring technologies that interest me: NextJS, OOP, testing frameworks cypress/jest/jmeter, and anything else that strikes my fancy! If you are looking for a passionate and dedicated developer who wants to learn, please check out my projects, github, and/or Linkedin and then feel free to contact me: kjensen19@gmail.com .
-        </p>
+        <div className={homeStyles.buildingBlocks}>
+          <p className={homeStyles.content}>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for cocktail parties and crossword puzzles, a lover of the oxford comma, and a consumer of coffee and caffeine in all forms. In what sometimes seems like another life I studied literature and my bookshelves still run the gamut from Rumi, to Sophocles, to Neal Stephenson, and everything in-between. In my downtime I love to cook, re-play old videogames, and spend time with my family.</p>
+          <div className={homeStyles.quoteContainer}>
+            <p className={homeStyles.quote}>Set your life on fire. Seek those who fan the flames - Jalāl ad-Dīn Muhammad Balkhī</p>
+            <p className={homeStyles.quote}>One learns by doing a thing; for though you think you know it, you have no certainty until you try ― Sophocles</p>
+          </div>
+        </div>
+        <div className={homeStyles.buildingBlocks}>
+          <p>My passion is learning and this collection of projects is meant to showcase my trajectory as a developer. From a simple, slightly garish calculator to this obviously sophisticated piece of modern web design in a scant few months. After completing the accelerated fullstack program at Prime Digital Academy I am looking for new problems to solve and exploring technologies that interest me: NextJS, OOP, testing frameworks cypress/jest/jmeter, and anything else that strikes my fancy! If you are looking for a passionate and dedicated developer who wants to learn, please check out my projects, github, and/or Linkedin and then feel free to contact me: kjensen19@gmail.com .</p>
+        </div>
+        <div className={homeStyles.buildingBlocks}>
         <h2 className={utilStyles.headingLg}>Skills</h2>
-        <p>Javascript React Redux Sagas NodeJS HTML CSS SQL NextJS MaterialUI Bootstrap APIs GIT GitHub</p>
+          <p>Javascript React Redux Sagas NodeJS HTML CSS SQL NextJS MaterialUI Bootstrap APIs GIT GitHub</p>
         <h2 className={utilStyles.headingLg}>Learning</h2>
-        <p>AWS: Lambda Amplify Dynamo IAM, Testing: Jest Cypress, and GraphQL</p>
+          <p>AWS: Lambda Amplify Dynamo IAM, Testing: Jest Cypress, and GraphQL</p>
+        </div>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Projects</h2>
