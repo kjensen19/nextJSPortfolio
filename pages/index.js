@@ -54,6 +54,8 @@ export default function Home({ allPostsData }) {
         </p>
         <h2 className={utilStyles.headingLg}>Skills</h2>
         <p>Javascript React Redux Sagas NodeJS HTML CSS SQL NextJS MaterialUI Bootstrap APIs GIT GitHub</p>
+        <h2 className={utilStyles.headingLg}>Learning</h2>
+        <p>AWS: Lambda Amplify Dynamo IAM, Testing: Jest Cypress, and GraphQL</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Projects</h2>
