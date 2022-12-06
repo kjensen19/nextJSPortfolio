@@ -1,3 +1,4 @@
+
 .container {
   padding: 0 2rem;
 }
@@ -206,6 +207,31 @@
   .grid {
     width: 100%;
     flex-direction: column;
+    height: auto;
+  }
+  .buildingBlocks {
+    flex-flow: column;
+    margin: 1rem;
+    justify-content: space-between;
+    height: auto;
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .sfContainer{
+    position: relative;
+  }
+
+  .main{
+    min-height:max-content ;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100vw;
+    
+  }
+  .content, .quote, .sfPic, .primeResume{
+    width: 100vw;
   }
 }
 
