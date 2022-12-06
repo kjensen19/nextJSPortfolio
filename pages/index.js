@@ -6,6 +6,8 @@ import Link from 'next/link';
 import Date from '../components/date';
 import homeStyles from '../styles/Home.module.css'
 import Image from 'next/image';
+import primeResume from '../public/images/primeResume.png'
+import shiningforce from '../public/images/shiningforce.png'
 
 
 export async function getStaticProps() {
@@ -53,10 +55,27 @@ export default function Home({ allPostsData }) {
           <div className={homeStyles.quoteContainer}>
             <p className={homeStyles.quote}>Set your life on fire. Seek those who fan the flames - Jalāl ad-Dīn Muhammad Balkhī</p>
             <p className={homeStyles.quote}>One learns by doing a thing; for though you think you know it, you have no certainty until you try ― Sophocles</p>
+            <p className={homeStyles.quote}>What is hard, in hacking as in fiction, is not writing, it is deciding what to write ― Neal Stephenson</p>
+          </div>
+          <div className={homeStyles.sfContainer}>
+            <Image
+              priority
+              src={shiningforce}
+              alt="Shining Force II"
+              className={homeStyles.sfPic}
+            />
           </div>
         </div>
         <div className={homeStyles.buildingBlocks}>
-          <p>My passion is learning and this collection of projects is meant to showcase my trajectory as a developer. From a simple, slightly garish calculator to this obviously sophisticated piece of modern web design in a scant few months. After completing the accelerated fullstack program at Prime Digital Academy I am looking for new problems to solve and exploring technologies that interest me: NextJS, OOP, testing frameworks cypress/jest/jmeter, and anything else that strikes my fancy! If you are looking for a passionate and dedicated developer who wants to learn, please check out my projects, github, and/or Linkedin and then feel free to contact me: kjensen19@gmail.com .</p>
+          <div className={homeStyles.primeResume}>
+            <Image
+              priority
+              src={primeResume}
+              alt="First webpage/resume"
+              className={homeStyles.resPic}
+              />
+            </div>
+          <p className={homeStyles.content}>My passion is learning and this collection of projects is meant to showcase my trajectory as a developer. From a simple, slightly garish calculator to this obviously sophisticated piece of modern web design in a scant few months. After completing the accelerated fullstack program at Prime Digital Academy I am looking for new problems to solve and exploring technologies that interest me: NextJS, OOP, testing frameworks cypress/jest/jmeter, and anything else that strikes my fancy!</p>
         </div>
         <div className={homeStyles.buildingBlocks}>
         <h2 className={utilStyles.headingLg}>Skills</h2>
