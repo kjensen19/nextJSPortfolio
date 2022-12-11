@@ -78,13 +78,13 @@ export default function Home({ allPostsData }) {
           <p className={homeStyles.content}>My passion is learning and this collection of projects is meant to showcase my trajectory as a developer. From the simple, slightly garish resume that I built in order to get into Prime to this obviously sophisticated piece of modern web design in a scant few months. After completing the accelerated fullstack program at Prime I am looking for new things to build and new problems to <span style={{'text-decoration': 'line-through'}}>create</span> solve.</p>
         </div>
         <div className={homeStyles.buildingBlocks}>
-          <div className={homeStyles.content}>
+          <div className={homeStyles.content} style={{'margin-right': '.5rem'}}>
             <h2 className={utilStyles.headingXl}>Skills: </h2>
-            <p > Javascript React Redux Sagas NodeJS HTML CSS SQL NextJS MaterialUI Bootstrap APIs GIT GitHub</p>
+            <p> Javascript React Redux Sagas NodeJS HTML CSS SQL NextJS MaterialUI Bootstrap APIs GIT GitHub</p>
           </div>
-          <div className={homeStyles.content}>
+          <div className={homeStyles.content} style={{'margin-left': '.5rem'}}>
             <h2 className={utilStyles.headingXl}>Learning:</h2>
-            <p>AWS: Lambda Amplify Dynamo IAM, Testing: Jest Cypress, <br></br>NextJS</p>
+            <p>AWS: Lambda Amplify Dynamo IAM, Testing: Jest Cypress <br></br>Other: NextJS</p>
           </div>
         </div>
       </section>
