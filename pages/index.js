@@ -80,7 +80,7 @@ export default function Home({ allPostsData }) {
         <div className={homeStyles.buildingBlocks}>
           <div className={homeStyles.content} style={{'margin-right': '.5rem'}}>
             <h2 className={utilStyles.headingXl}>Skills: </h2>
-            <p> Javascript React Redux Sagas NodeJS HTML CSS SQL NextJS MaterialUI Bootstrap APIs GIT GitHub</p>
+            <p>Javascript React Redux Sagas NodeJS HTML CSS SQL NextJS MaterialUI Bootstrap APIs GIT GitHub</p>
           </div>
           <div className={homeStyles.content} style={{'margin-left': '.5rem'}}>
             <h2 className={utilStyles.headingXl}>Learning:</h2>
