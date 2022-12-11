@@ -75,17 +75,21 @@ export default function Home({ allPostsData }) {
               className={homeStyles.resPic}
               />
             </div>
-          <p className={homeStyles.content}>My passion is learning and this collection of projects is meant to showcase my trajectory as a developer. From a simple, slightly garish calculator to this obviously sophisticated piece of modern web design in a scant few months. After completing the accelerated fullstack program at Prime Digital Academy I am looking for new problems to solve and exploring technologies that interest me: NextJS, OOP, testing frameworks cypress/jest/jmeter, and anything else that strikes my fancy!</p>
+          <p className={homeStyles.content}>My passion is learning and this collection of projects is meant to showcase my trajectory as a developer. From the simple, slightly garish resume that I built in order to get into Prime to this obviously sophisticated piece of modern web design in a scant few months. After completing the accelerated fullstack program at Prime I am looking for new things to build and new problems to <span style={{'text-decoration': 'line-through'}}>create</span> solve.</p>
         </div>
         <div className={homeStyles.buildingBlocks}>
-        <h2 className={utilStyles.headingLg}>Skills</h2>
-          <p>Javascript React Redux Sagas NodeJS HTML CSS SQL NextJS MaterialUI Bootstrap APIs GIT GitHub</p>
-        <h2 className={utilStyles.headingLg}>Learning</h2>
-          <p>AWS: Lambda Amplify Dynamo IAM, Testing: Jest Cypress, and GraphQL</p>
+          <div className={homeStyles.content}>
+            <h2 className={utilStyles.headingXl}>Skills: </h2>
+            <p > Javascript React Redux Sagas NodeJS HTML CSS SQL NextJS MaterialUI Bootstrap APIs GIT GitHub</p>
+          </div>
+          <div className={homeStyles.content}>
+            <h2 className={utilStyles.headingXl}>Learning:</h2>
+            <p>AWS: Lambda Amplify Dynamo IAM, Testing: Jest Cypress, <br></br>NextJS</p>
+          </div>
         </div>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Projects</h2>
+        <h2 className={utilStyles.heading2Xl}>Projects</h2>
         <div className={homeStyles.postHolder}>
           {allPostsData.map(({ id, date, title, img }) => (
           <Link href={`/posts/${id}`} key={id}>
