@@ -234,7 +234,7 @@
   }
   .content, .quote, .sfPic, .primeResume, .quoteContainer{
     width: 100vw;
-    margin-top: 2rem;
+    margin: 2rem 0 0 0;
   }
 }
 
