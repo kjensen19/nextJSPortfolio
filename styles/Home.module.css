@@ -211,12 +211,11 @@
   }
   .buildingBlocks {
     flex-flow: column;
-    margin: 1rem;
+    margin: 0;
     justify-content: space-between;
     height: auto;
-    width: 100vw;
-    margin-left: 0;
-    margin-right: 0;
+    width: 100%;
+    display: flex;
   }
   .sfContainer{
     position: relative;
@@ -228,11 +227,14 @@
     flex-flow: column;
     justify-content: center;
     width: 100vw;
+    align-items: center;
+    box-sizing: border-box;
     
     
   }
-  .content, .quote, .sfPic, .primeResume{
+  .content, .quote, .sfPic, .primeResume, .quoteContainer{
     width: 100vw;
+    margin-top: 2rem;
   }
 }
 
