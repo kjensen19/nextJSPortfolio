@@ -75,14 +75,14 @@ export default function Home({ allPostsData }) {
               className={homeStyles.resPic}
               />
             </div>
-          <p className={homeStyles.content}>My passion is learning and this collection of projects is meant to showcase my trajectory as a developer. From the simple, slightly garish resume I made in July to this obviously sophisticated piece of modern web design in a scant few months. I am looking for new things to build and new problems to <span style={{'text-decoration': 'line-through'}}>create</span> solve.</p>
+          <p className={homeStyles.content}>My passion is learning and this collection of projects is meant to showcase my trajectory as a developer. From the simple, slightly garish resume I made in July to this obviously sophisticated piece of modern web design in a scant few months. I am looking for new things to build and new problems to <span style={{'textDecoration': 'line-through'}}>create</span> solve.</p>
         </div>
         <div className={homeStyles.buildingBlocks}>
-          <div className={homeStyles.content} style={{'margin-right': '.5rem'}}>
+          <div className={homeStyles.content} style={{'marginRight': '.5rem'}}>
             <h2 className={utilStyles.headingXl}>Skills: </h2>
             <p>Javascript React Redux NextJS Sagas NodeJS HTML CSS SQL MaterialUI Bootstrap APIs GIT GitHub</p>
           </div>
-          <div className={homeStyles.content} style={{'margin-left': '.5rem'}}>
+          <div className={homeStyles.content} style={{'marginLeft': '.5rem'}}>
             <h2 className={utilStyles.headingXl}>Learning:</h2>
             <p>AWS: Lambda Amplify Dynamo IAM, Testing: Jest Cypress <br></br>Other: NextJS</p>
           </div>
