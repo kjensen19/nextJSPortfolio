@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
                 src="/images/GitHub-Mark-Light-32px.png"
                 height={32}
                 width={32}
-                alt=""
+                alt="git hub icon"
                 className={utilStyles.socImg}
                 
               
@@ -45,7 +45,7 @@ export default function Home({ allPostsData }) {
                 src="/images/In-White-34.png"
                 height={34}
                 width={34}
-                alt=""
+                alt="LinkedIn Icon"
                 className={utilStyles.socImg}
                 />
                 </a>
