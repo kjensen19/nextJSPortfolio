@@ -181,6 +181,10 @@
   padding: 1rem;
 }
 
+.resPic:hover{
+  border: .5rem solid blue
+}
+
 .primeResume{
   width: 40vw;
   margin-right: 1rem;

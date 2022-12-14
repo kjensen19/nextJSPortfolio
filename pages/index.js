@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
                 src="/images/GitHub-Mark-Light-32px.png"
                 height={32}
                 width={32}
-                alt="git hub icon"
+                alt="github icon"
                 className={utilStyles.socImg}
                 
               
@@ -67,14 +67,16 @@ export default function Home({ allPostsData }) {
           </div>
         </div>
         <div className={homeStyles.buildingBlocks}>
-          <div className={homeStyles.primeResume}>
-            <Image
-              priority
-              src={primeResume}
-              alt="First webpage/resume"
-              className={homeStyles.resPic}
-              />
-            </div>
+          <Link href={'https://kjensen19.github.io/'} id='resLink'>
+            <div className={homeStyles.primeResume}>
+              <Image
+                priority
+                src={primeResume}
+                alt="First webpage/resume"
+                className={homeStyles.resPic}
+                />
+              </div>
+            </Link>
           <p className={homeStyles.content}>My passion is learning and this collection of projects is meant to showcase my trajectory as a developer. From the simple, slightly garish resume I made in July to this obviously sophisticated piece of modern web design in a scant few months. I am looking for new things to build and new problems to <span style={{'textDecoration': 'line-through'}}>create</span> solve.</p>
         </div>
         <div className={homeStyles.buildingBlocks}>
