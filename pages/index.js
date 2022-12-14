@@ -102,7 +102,7 @@ export default function Home({ allPostsData }) {
                 src={img}
                 height={144}
                 width={200}
-                alt=""
+                alt="Post image"
                 className={homeStyles.img}
               />
               <small className={utilStyles.lightText}>
