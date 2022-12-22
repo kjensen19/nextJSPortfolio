@@ -1,10 +1,8 @@
 import { motion } from "framer-motion";
 
 const MotionLayout = ({ children }) => (
+  // Controls behavior of page loads etc (clicking on specific entries)
   <motion.div
-  
-
-
 //   animate={{
 //     scale: [1, 2, 2, 1, 1],
 //     rotate: [0, 0, 270, 270, 0],

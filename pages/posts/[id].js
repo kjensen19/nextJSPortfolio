@@ -6,6 +6,8 @@ import utilStyles from '../../styles/utils.module.css'
 import MotionLayout from '../../components/motionLayout';
 
 export default function Post({ postData }) {
+
+  // MotionLayout applies the page load animation declared in motionLayout.js to each post
     return (
       <MotionLayout>
         <Layout>
