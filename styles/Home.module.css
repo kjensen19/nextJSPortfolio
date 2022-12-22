@@ -212,13 +212,16 @@
     width: 100%;
     flex-direction: column;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
   }
   .buildingBlocks {
     flex-flow: column;
     margin: 0;
     justify-content: space-between;
     height: auto;
-    width: 100%;
+    width: 100vw;
     display: flex;
   }
   .sfContainer{
