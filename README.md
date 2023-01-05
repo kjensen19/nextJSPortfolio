@@ -22,7 +22,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -30,9 +29,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/kjensen19/nextJSPortfolio">
+  <!-- <a href="https://github.com/kjensen19/nextJSPortfolio">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  </a> -->
 
 <h3 align="center">Portfolio</h3>
 
@@ -80,7 +79,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 A blog style portfolio with a little snapshot of me as a developer and posts with links about some of the projects I've worked on recently. Intended to highlight my trajectory as a developer.
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,9 +102,7 @@ A blog style portfolio with a little snapshot of me as a developer and posts wit
 
 * Clone repo locally
 * Install Node.js
-    ```sh
 * npm install in project directory
-  ```
 * next dev start
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
