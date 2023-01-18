@@ -57,15 +57,8 @@ export default function Home({ allPostsData }) {
             <p className={homeStyles.quote}>One learns by doing a thing; for though you think you know it, you have no certainty until you try ― Sophocles</p>
             <p className={homeStyles.quote}>What is hard, in hacking as in fiction, is not writing, it is deciding what to write ― Neal Stephenson</p>
           </div>
-          <div className={homeStyles.sfContainer}>
-            <Image
-              priority
-              src={shiningforce}
-              alt="Shining Force II"
-              className={homeStyles.sfPic}
-            />
-          </div>
         </div>
+        <h2 className={utilStyles.heading2Xl}>Past & Present</h2>
         <div className={homeStyles.buildingBlocks}>
           <Link href={'https://kjensen19.github.io/'} id='resLink'>
             <div className={homeStyles.primeResume}>
@@ -77,21 +70,21 @@ export default function Home({ allPostsData }) {
                 />
               </div>
             </Link>
-          <p className={homeStyles.content}>My passion is learning and this collection of projects is meant to showcase my trajectory as a developer. From the simple, slightly garish resume I made in July to this obviously sophisticated piece of modern web design in a scant few months. I am looking for new things to build and new problems to <span style={{'textDecoration': 'line-through'}}>create</span> solve.</p>
+          <p className={homeStyles.content}>My passion is learning and this collection of projects is meant to show my trajectory as a developer. From the simple, slightly garish resume to the left that I made in July to this obviously sophisticated piece of modern web design in a scant few months. I am looking for new things to build and new problems to <span style={{'textDecoration': 'line-through'}}>create</span> solve.</p>
         </div>
-        <div className={homeStyles.buildingBlocks}>
-          <div className={homeStyles.content} style={{'marginRight': '.5rem'}}>
-            <h2 className={utilStyles.headingXl}>Skills: </h2>
-            <p>Javascript React Redux NextJS Sagas NodeJS HTML CSS SQL MaterialUI Bootstrap APIs GIT GitHub</p>
-          </div>
-          <div className={homeStyles.content} style={{'marginLeft': '.5rem'}}>
-            <h2 className={utilStyles.headingXl}>Learning:</h2>
-            <p>AWS: Lambda Amplify Dynamo IAM, Testing: Jest Cypress <br></br>Other: NextJS</p>
-          </div>
-        </div>
+          <h2 className={utilStyles.heading2Xl} style={{'paddingBottom': '4rem'}}>Skills</h2>
+          <div className={homeStyles.doubleContent} style={{'marginRight': '.5rem'}}>
+            <p>Languages: Javascript Python Go C#</p>
+            <p>Frontend: React NextJS HTML CSS Redux Redux-sagas MaterialUI Bootstrap</p> 
+            <p>Backend: Node.js .NET Gin Django+REST Entity APIs JSON HTTP OAuth2 Passport</p>
+            <p>Database: SQL PostgreSQL MySQL Supabase DynamoDB</p>
+            <p>Cloud: AWS: Lambda IAM Cognito API gateway Google Cloud Platform</p> 
+            <p>Testing: Postman Jest Go:fuzzing </p>
+            <p>Collab: GIT GitHub Agile Trello</p>
+          </div> 
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.heading2Xl}>Projects</h2>
+        <h2 className={utilStyles.heading2Xl} style={{'paddingBottom': '4rem'}}>Projects</h2>
         <div className={homeStyles.postHolder}>
           {allPostsData.map(({ id, date, title, img }) => (
           <Link href={`/posts/${id}`} key={id}>
