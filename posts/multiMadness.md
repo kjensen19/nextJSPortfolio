@@ -1,6 +1,6 @@
 ---
 title: 'Mountains of Madness, er Multiplication Madness rather '
-date: '2022-11-01'
+date: '2022-12-01'
 img: '/images/multiImg.png'
 
 ---
