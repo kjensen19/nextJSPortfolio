@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="portfolio"
-          content="Hire this webDev!"
+          content="Hire this WebDev!"
         />
         <meta
           property="og:image"

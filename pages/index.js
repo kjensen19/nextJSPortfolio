@@ -17,7 +17,8 @@ export async function getStaticProps() {
     },
   };
 }
-
+//Quotes could be placed in an array and then mapped over instead of hardcoded (could enable randomizing)
+//Need to look into if calling the linkedin/github here and in layout is serving any purpose. sizing maybe?
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
