@@ -7,7 +7,6 @@ import Date from '../components/date';
 import homeStyles from '../styles/Home.module.css'
 import Image from 'next/image';
 import primeResume from '../public/images/primeResume.png'
-import shiningforce from '../public/images/shiningforce.png'
 
 
 export async function getStaticProps() {
