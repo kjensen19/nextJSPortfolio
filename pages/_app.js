@@ -5,7 +5,10 @@ import { AnimatePresence } from 'framer-motion'
 const inter = Inter({ subsets: ['latin'] })
 import { Analytics } from '@vercel/analytics/react';
 
-
+//Set global values for font etc
+//Initialize Animation for motion
+//Enable Vercel Analytics
+//Activate Next Router
 function MyApp({ Component, pageProps, router }) {
   return(    <>
     <style jsx global>{`

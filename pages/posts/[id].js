@@ -8,6 +8,7 @@ import MotionLayout from '../../components/motionLayout';
 export default function Post({ postData }) {
 
   // MotionLayout applies the page load animation declared in motionLayout.js to each post
+  // Layout applies the style laid out in layout component
     return (
       <MotionLayout>
         <Layout>
