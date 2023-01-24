@@ -66,8 +66,9 @@ export default function Home({ allPostsData }) {
           </div>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.heading2Xl}>Projects</h2>
+        
         <div className={homeStyles.postHolder}>
+        <h2 className={utilStyles.heading2Xl} style={{'position': 'absolute', 'top': '0'}}>Projects</h2>
           {allPostsData.map(({ id, date, title, img }) => (
           <Link href={`/posts/${id}`} key={id}>
             <div className={homeStyles.card} >
