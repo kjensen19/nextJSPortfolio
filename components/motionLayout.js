@@ -13,7 +13,7 @@ const MotionLayout = ({ children }) => (
     exit={{ x: 300, opacity: 0 }}
     transition={{
       type: "spring",
-      stiffness: 260,
+      stiffness: 100,
       damping: 20,
     }}
   >
