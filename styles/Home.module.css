@@ -75,13 +75,13 @@
 }
 
 .card {
-  margin: 1rem;
+  margin: 1rem 3rem;
   padding: 0rem 1.5rem 0rem 1.5rem;
   text-align: center;
   color: inherit;
   text-decoration: none;
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+  transition: color 0.15s ease;
   width: 18rem;
   height: 22rem;
   border: 5px;
@@ -102,7 +102,7 @@
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
     z-index: -1;
-    margin: -5px; /* !importanté */
+    margin: -.1rem; /* !importanté */
     border-radius: inherit; /* !importanté */
     background: linear-gradient(to right, orange, red, orange);
 }
@@ -128,11 +128,15 @@
 .postHolder{
   width: 80vw;
   display: flex;
-  flex-wrap: wrap;
-  columns: 3;
+  flex-wrap: nowrap;
   position: relative;
-  align-content: center;
+  align-items: center;
   justify-content: center;
+  overflow: scroll;
+  height: 30rem;
+  border: .5rem solid white;
+  border-radius: 2rem;
+  padding: 1rem;
 }
 
 .buildingBlocks {
@@ -147,12 +151,7 @@
   top: 130%;
   display: flex;
 }
-.sfPic{
-  width: 81vw;
-  border: .5rem solid white;
-  border-radius: 2rem;
-  padding: .5rem;
-}
+
 
 .content, .doubleContent{
   width: 40vw;
@@ -161,7 +160,7 @@
   background: linear-gradient(to right, rgba(22, 214, 57, 0.5), rgba(71, 147, 224, 0.25), rgba(70, 16, 150, 0.5));
   height: fit-content;
   padding: .5rem;
-  font-size: 2rem;
+  font-size: 1rem;
   margin: 0 0 4rem 0;
 }
 
@@ -196,7 +195,7 @@
 
 }
 .quote{
-  font-size: 2rem;
+  font-size: 1rem;
   border: .5rem solid white;
   border-radius: 2rem;
   padding: .5rem;

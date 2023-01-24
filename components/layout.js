@@ -28,28 +28,14 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            <Image
-              priority
-              src="/images/profile.jpg"
-              className={utilStyles.borderCircle}
-              height={350}
-              width={350}
-              alt=""
-            />
+           
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
           <>
             <Link href="/">
 
-              <Image
-                priority
-                src="/images/profile.jpg"
-                className={utilStyles.borderCircle}
-                height={216}
-                width={216}
-                alt=""
-              />
+        
        
 
             </Link>
@@ -97,3 +83,22 @@ export default function Layout({ children, home }) {
     </div>
   );
 }
+
+//Removed image info
+/* <Image
+priority
+src="/images/profile.jpg"
+className={utilStyles.borderCircle}
+height={350}
+width={350}
+alt=""
+/>
+
+<Image
+priority
+src="/images/profile.jpg"
+className={utilStyles.borderCircle}
+height={216}
+width={216}
+alt=""
+/> */

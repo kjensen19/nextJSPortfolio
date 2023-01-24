@@ -51,11 +51,9 @@ export default function Home({ allPostsData }) {
                 </a>
         </div>
         <div className={homeStyles.buildingBlocks}>
-          <p className={homeStyles.content}>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for cocktail parties and crossword puzzles, a lover of the oxford comma, and a consumer of coffee and caffeine in all forms. In what sometimes seems like another life I studied literature and my bookshelves still run the gamut from Rumi, to Sophocles, to Neal Stephenson, and everything in-between. In my downtime I love to cook, re-play old videogames, and spend time with my family.</p>
+          <p className={homeStyles.content}>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for cocktail parties and crossword puzzles, and a lover of the oxford comma.</p>
           <div className={homeStyles.quoteContainer}>
-            <p className={homeStyles.quote}>Set your life on fire. Seek those who fan the flames - Jalāl ad-Dīn Muhammad Balkhī</p>
             <p className={homeStyles.quote}>One learns by doing a thing; for though you think you know it, you have no certainty until you try ― Sophocles</p>
-            <p className={homeStyles.quote}>What is hard, in hacking as in fiction, is not writing, it is deciding what to write ― Neal Stephenson</p>
           </div>
         </div>
         <h2 className={utilStyles.heading2Xl}>Past & Present</h2>
@@ -70,7 +68,7 @@ export default function Home({ allPostsData }) {
                 />
               </div>
             </Link>
-          <p className={homeStyles.content}>My passion is learning and this collection of projects is meant to show my trajectory as a developer. From the simple, slightly garish resume to the left that I made in July to this obviously sophisticated piece of modern web design in a scant few months. I am looking for new things to build and new problems to <span style={{'textDecoration': 'line-through'}}>create</span> solve.</p>
+          <p className={homeStyles.content}>My passion is learning and this collection of projects showcases my versatility, adaptability. From the simple, slightly garish resume to the left that I made in July to this obviously sophisticated piece of modern web design in a scant few months. I am looking for new things to build and new problems to <span style={{'textDecoration': 'line-through'}}>create</span> solve.</p>
         </div>
           <h2 className={utilStyles.heading2Xl} style={{'paddingBottom': '4rem'}}>Skills</h2>
           <div className={homeStyles.doubleContent} style={{'marginRight': '.5rem'}}>
@@ -79,7 +77,7 @@ export default function Home({ allPostsData }) {
             <p>Backend: Node.js .NET Gin Django+REST Entity APIs JSON HTTP OAuth2 Passport</p>
             <p>Database: SQL PostgreSQL MySQL Supabase DynamoDB</p>
             <p>Cloud: AWS: Lambda IAM Cognito API gateway Google Cloud Platform</p> 
-            <p>Testing: Postman Jest Go:fuzzing </p>
+            <p>Testing: Postman Jest Cypress </p>
             <p>Collab: GIT GitHub Agile Trello</p>
           </div> 
       </section>
