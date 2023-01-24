@@ -13,58 +13,32 @@
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
+.tags{
   margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
 }
 
-.title,
-.description {
-  text-align: center;
+.tags::before {
+  color: white;
+  content: "Software Engineer";
+  animation-name: tagline;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+@keyframes tagline {
+  0% {filter: blur(0px)}
+  10% {filter: blur(9px)}
+  20% {content: "Problem Solver"}
+  30% {filter: blur(0px)}
+  40% {filter: blur(9px)}
+  50% {content: "Web Developer"}
+  60% {filter: blur(0px)}
+  70% {filter: blur(9px)}     
+  80% {content: "Versatile Learner"}
+  90% {filter: blur(0px)}
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
 
 .grid {
   display: flex;
@@ -106,13 +80,6 @@
     background: linear-gradient(to right, orange, red, orange);
 }
 
-/* .card:hover,
-.card:focus,
-.card:active {
-  background: linear-gradient(to right, rgb(22, 214, 58), rgb(71, 147, 224), rgb(70, 16, 150));
-
-} */
-
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
@@ -125,7 +92,7 @@
 }
 
 .postHolder{
-  width: 80vw;
+  width: 84vw;
   display: flex;
   flex-wrap: nowrap;
   position: relative;
@@ -141,67 +108,24 @@
   height: fit-content;
   display: flex;
   flex-flow: row;
+  flex-wrap: wrap;
+  columns: 2;
   margin: 4rem 0;
+  justify-content: center;
+  align-items: center;
+  width: 85vw;
 }
 
-.sfContainer{
-  position: absolute;
-  top: 130%;
-  display: flex;
-}
-
-
-.content, .doubleContent{
+.content, .doubleContent, .quote{
   width: 40vw;
   border: .5rem solid white;
   border-radius: 2rem;
   background: linear-gradient(to right, rgba(22, 214, 57, 0.5), rgba(71, 147, 224, 0.25), rgba(70, 16, 150, 0.5));
   height: fit-content;
-  padding: .5rem;
+  padding: 2rem;
   font-size: 1rem;
-  margin: 0 0 4rem 0;
-}
-
-.doubleContent{
-  width: 81vw;
-  
-}
-
-.quoteContainer{
-  width: 40vw;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  margin-left: 1rem;
-}
-
-.resPic{
-  height: auto;
-  width: auto;
-  border-radius: 2rem;
-  border: .5rem solid white;
-  padding: 1rem;
-}
-
-.resPic:hover{
-  border: 1rem solid white;
-}
-
-.primeResume{
-  width: 40vw;
-  margin-right: 1rem;
-
-}
-.quote{
-  font-size: 1rem;
-  border: .5rem solid white;
-  border-radius: 2rem;
-  padding: .5rem;
-  margin: 0rem 0rem 4rem 0rem;
-}
-
-.img{
-  margin: 1rem 0rem 1rem 0rem
+  margin: 0rem 2rem 2rem 0rem;
+  min-height: 10rem;
 }
 
 .logo {

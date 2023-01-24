@@ -26,6 +26,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
+        <h2 className={homeStyles.tags}></h2>
         <div className={utilStyles.socialFrame}>
           <a href='https://github.com/kjensen19' target="_blank" rel="noreferrer">
               <Image
@@ -51,27 +52,12 @@ export default function Home({ allPostsData }) {
                 </a>
         </div>
         <div className={homeStyles.buildingBlocks}>
-          <p className={homeStyles.content}>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for cocktail parties and crossword puzzles, and a lover of the oxford comma.</p>
+          <p className={homeStyles.content}>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for crossword puzzles, and a lover of the oxford comma.</p>
           <div className={homeStyles.quoteContainer}>
             <p className={homeStyles.quote}>One learns by doing a thing; for though you think you know it, you have no certainty until you try ― Sophocles</p>
           </div>
-        </div>
-        <h2 className={utilStyles.heading2Xl}>Past & Present</h2>
-        <div className={homeStyles.buildingBlocks}>
-          <Link href={'https://kjensen19.github.io/'} id='resLink'>
-            <div className={homeStyles.primeResume}>
-              <Image
-                priority
-                src={primeResume}
-                alt="First webpage/resume"
-                className={homeStyles.resPic}
-                />
-              </div>
-            </Link>
-          <p className={homeStyles.content}>My passion is learning and this collection of projects showcases my versatility, adaptability. From the simple, slightly garish resume to the left that I made in July to this obviously sophisticated piece of modern web design in a scant few months. I am looking for new things to build and new problems to <span style={{'textDecoration': 'line-through'}}>create</span> solve.</p>
-        </div>
-          <h2 className={utilStyles.heading2Xl} style={{'paddingBottom': '4rem'}}>Skills</h2>
-          <div className={homeStyles.doubleContent} style={{'marginRight': '.5rem'}}>
+          <p className={homeStyles.content}>My passion is learning and this collection of projects showcases my versatility, adaptability. From the simple, slightly garish resume to the left that I made in July to this obviously sophisticated piece of modern web design in a scant few months. I am looking for new things to build and new problems to solve.</p>
+          <div className={homeStyles.content} style={{'marginRight': '.5rem'}}>
             <p>Languages: Javascript Python Go C#</p>
             <p>Frontend: React NextJS HTML CSS Redux Redux-sagas MaterialUI Bootstrap</p> 
             <p>Backend: Node.js .NET Gin Django+REST Entity APIs JSON HTTP OAuth2 Passport</p>
@@ -80,6 +66,7 @@ export default function Home({ allPostsData }) {
             <p>Testing: Postman Jest Cypress </p>
             <p>Collab: GIT GitHub Agile Trello</p>
           </div> 
+          </div>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.heading2Xl} style={{'paddingBottom': '4rem'}}>Projects</h2>
