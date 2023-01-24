@@ -23,7 +23,7 @@
   animation-name: tagline;
   animation-duration: 10s;
   animation-timing-function: ease-in-out;
-  animation-fill-mode: both;
+  animation-fill-mode: backwards;
 }
 
 @keyframes tagline {
@@ -37,6 +37,7 @@
   70% {filter: blur(9px)}     
   80% {content: "Versatile Learner"}
   90% {filter: blur(0px)}
+  95% {filter: blur(9px)}
 }
 
 
@@ -111,21 +112,33 @@
   flex-wrap: wrap;
   columns: 2;
   margin: 4rem 0;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  width: 85vw;
+  width: 84vw;
 }
 
-.content, .doubleContent, .quote{
-  width: 40vw;
+.content, .doubleContent, .quote, .skillsContainer{
+  width: 41vw;
   border: .5rem solid white;
   border-radius: 2rem;
   background: linear-gradient(to right, rgba(22, 214, 57, 0.5), rgba(71, 147, 224, 0.25), rgba(70, 16, 150, 0.5));
   height: fit-content;
-  padding: 2rem;
-  font-size: 1rem;
-  margin: 0rem 2rem 2rem 0rem;
-  min-height: 10rem;
+  padding: 2rem 1rem;
+  font-size: 1.25rem;
+  min-height: 12rem;
+  display: flex;
+  align-items: center; 
+}
+
+.skills{
+  width: 10rem;
+}
+
+.skillsContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 .logo {

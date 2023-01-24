@@ -53,23 +53,20 @@ export default function Home({ allPostsData }) {
         </div>
         <div className={homeStyles.buildingBlocks}>
           <p className={homeStyles.content}>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for crossword puzzles, and a lover of the oxford comma.</p>
-          <div className={homeStyles.quoteContainer}>
-            <p className={homeStyles.quote}>One learns by doing a thing; for though you think you know it, you have no certainty until you try ― Sophocles</p>
-          </div>
-          <p className={homeStyles.content}>My passion is learning and this collection of projects showcases my versatility, adaptability. From the simple, slightly garish resume to the left that I made in July to this obviously sophisticated piece of modern web design in a scant few months. I am looking for new things to build and new problems to solve.</p>
-          <div className={homeStyles.content} style={{'marginRight': '.5rem'}}>
-            <p>Languages: Javascript Python Go C#</p>
-            <p>Frontend: React NextJS HTML CSS Redux Redux-sagas MaterialUI Bootstrap</p> 
-            <p>Backend: Node.js .NET Gin Django+REST Entity APIs JSON HTTP OAuth2 Passport</p>
-            <p>Database: SQL PostgreSQL MySQL Supabase DynamoDB</p>
-            <p>Cloud: AWS: Lambda IAM Cognito API gateway Google Cloud Platform</p> 
-            <p>Testing: Postman Jest Cypress </p>
-            <p>Collab: GIT GitHub Agile Trello</p>
-          </div> 
+          <p className={homeStyles.quote}>One learns by doing a thing; for though you think you know it, you have no certainty until you try.<br></br> ―Sophocles</p> 
+            <div className={homeStyles.skillsContainer}>
+              <ul className={homeStyles.skills}>Languages <li>Javascript</li><li>Python</li><li>Go</li><li>C#</li></ul>
+              <ul className={homeStyles.skills}>Frontend <li>React</li><li>NextJS</li><li>HTML</li><li>CSS</li><li>Redux</li><li>MaterialUI</li><li>Bootstrap</li></ul> 
+              <ul className={homeStyles.skills}>Backend <li>Node.js</li><li>.NET</li><li>Gin</li><li>Django+REST</li><li>APIs</li><li>OAuth2</li></ul>
+              <ul className={homeStyles.skills}>Database <li>SQL</li><li>PostgreSQL</li><li>MySQL</li><li>DynamoDB</li></ul>
+              <ul className={homeStyles.skills}>Cloud(AWS) <li>Lambda</li><li>IAM</li><li>Cognito</li><li>API Gateway</li></ul> 
+              <ul className={homeStyles.skills}>Testing <li>Postman</li><li>Jest</li><li>Cypress</li><li>Fuzzing</li></ul>
+              <ul className={homeStyles.skills}>Collab <li>GIT</li><li>GitHub</li><li>Agile</li><li>Trello</li></ul>
+            </div>
           </div>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.heading2Xl} style={{'paddingBottom': '4rem'}}>Projects</h2>
+        <h2 className={utilStyles.heading2Xl}>Projects</h2>
         <div className={homeStyles.postHolder}>
           {allPostsData.map(({ id, date, title, img }) => (
           <Link href={`/posts/${id}`} key={id}>
