@@ -50,7 +50,7 @@
 }
 
 .card {
-  margin: 1.5rem 1.5rem;
+  margin: 2rem 1.5rem;
   padding: 0rem 1.5rem 0rem 1.5rem;
   text-align: center;
   color: inherit;
@@ -111,7 +111,7 @@
   flex-flow: row;
   flex-wrap: wrap;
   columns: 2;
-  margin: 2rem 0 1rem 0;
+  margin: 0rem 0 1rem 0;
   justify-content: space-between;
   align-items: center;
   width: 84vw;
@@ -130,6 +130,11 @@
   align-items: center; 
 }
 
+.quote{
+  background: linear-gradient(to left, rgba(22, 214, 57, 0.5), rgba(71, 147, 224, 0.25), rgba(70, 16, 150, 0.5));
+
+}
+
 .skills{
   width: 10rem;
 }
@@ -139,6 +144,8 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  background: linear-gradient(to top, rgba(22, 214, 57, 0.5), rgba(71, 147, 224, 0.25), rgba(70, 16, 150, 0.5));
+
 }
 
 .logo {
