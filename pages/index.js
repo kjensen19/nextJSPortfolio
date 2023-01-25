@@ -55,20 +55,23 @@ export default function Home({ allPostsData }) {
           <p className={homeStyles.content}>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for crossword puzzles, and a lover of the oxford comma.</p>
           <p className={homeStyles.quote}>One learns by doing a thing; for though you think you know it, you have no certainty until you try.<br></br> ―Sophocles</p> 
             <div className={homeStyles.skillsContainer}>
-              <ul className={homeStyles.skills}>Languages <li>Javascript</li><li>Python</li><li>Go</li><li>C#</li></ul>
-              <ul className={homeStyles.skills}>Frontend <li>React</li><li>NextJS</li><li>HTML</li><li>CSS</li><li>Redux</li><li>MaterialUI</li><li>Bootstrap</li></ul> 
-              <ul className={homeStyles.skills}>Backend <li>Node.js</li><li>.NET</li><li>Gin</li><li>Django+REST</li><li>APIs</li><li>OAuth2</li></ul>
-              <ul className={homeStyles.skills}>Database <li>SQL</li><li>PostgreSQL</li><li>MySQL</li><li>DynamoDB</li></ul>
-              <ul className={homeStyles.skills}>Cloud(AWS) <li>Lambda</li><li>IAM</li><li>Cognito</li><li>API Gateway</li></ul> 
-              <ul className={homeStyles.skills}>Testing <li>Postman</li><li>Jest</li><li>Cypress</li><li>Fuzzing</li></ul>
-              <ul className={homeStyles.skills}>Collab <li>GIT</li><li>GitHub</li><li>Agile</li><li>Trello</li></ul>
+              <header className={utilStyles.heading2Xl} ><a download href={'KyleJensenResume.pdf'}>Resume</a></header>
+              <div className={homeStyles.skillsLists}>
+                <ul className={homeStyles.skills}>Languages <li>Javascript</li><li>Python</li><li>Go</li><li>C#</li></ul>
+                <ul className={homeStyles.skills}>Frontend <li>React</li><li>NextJS</li><li>HTML</li><li>CSS</li><li>Redux</li><li>MaterialUI</li><li>Bootstrap</li></ul> 
+                <ul className={homeStyles.skills}>Backend <li>Node.js</li><li>.NET</li><li>Gin</li><li>Django+REST</li><li>APIs</li><li>OAuth2</li></ul>
+                <ul className={homeStyles.skills}>Database <li>SQL</li><li>PostgreSQL</li><li>MySQL</li><li>DynamoDB</li></ul>
+                <ul className={homeStyles.skills}>Cloud(AWS) <li>Lambda</li><li>IAM</li><li>Cognito</li><li>API Gateway</li></ul> 
+                <ul className={homeStyles.skills}>Testing <li>Postman</li><li>Jest</li><li>Cypress</li><li>Fuzzing</li></ul>
+                <ul className={homeStyles.skills}>Collab <li>GIT</li><li>GitHub</li><li>Agile</li><li>Trello</li></ul>
+              </div>
             </div>
-          </div>
+        </div>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         
         <div className={homeStyles.postHolder}>
-        <h2 className={utilStyles.heading2Xl} style={{'position': 'absolute', 'top': '0'}}>Projects</h2>
+        <h2 className={utilStyles.heading2Xl} style={{'position':'absolute', 'top':'0'}}>Projects</h2>
           {allPostsData.map(({ id, date, title, img }) => (
           <Link href={`/posts/${id}`} key={id}>
             <div className={homeStyles.card} >

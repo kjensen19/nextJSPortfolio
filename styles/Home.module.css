@@ -142,12 +142,18 @@
 .skillsContainer{
   width: 100%;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
   background: linear-gradient(to top, rgba(22, 214, 57, 0.5), rgba(71, 147, 224, 0.25), rgba(70, 16, 150, 0.5));
-
+  
 }
 
+.skillsLists{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-items: center;
+  flex-wrap: wrap;
+}
 .logo {
   height: 1em;
   margin-left: 0.5rem;
@@ -164,15 +170,17 @@
   }
   .buildingBlocks {
     flex-flow: column;
-    margin: 0;
+    margin: 0 0 1rem 0;
     justify-content: space-between;
     height: auto;
     width: 100vw;
     display: flex;
   }
-  .skillsContainer{
+  .skillsContainer, .skillsLists{
     flex-direction: column;
     width: 100vw;
+    justify-content: center;
+    align-items: center;
 
   }
 
