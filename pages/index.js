@@ -57,12 +57,12 @@ export default function Home({ allPostsData }) {
             <div className={homeStyles.skillsContainer}>
               <header className={utilStyles.heading2Xl} ><a download href={'KyleJensenResume.pdf'}>Resume</a></header>
               <div className={homeStyles.skillsLists}>
-                <ul className={homeStyles.skills}>Languages <li>Javascript</li><li>Python</li><li>Go</li><li>C#</li></ul>
-                <ul className={homeStyles.skills}>Frontend <li>React</li><li>NextJS</li><li>HTML</li><li>CSS</li><li>Redux</li><li>MaterialUI</li><li>Bootstrap</li></ul> 
-                <ul className={homeStyles.skills}>Backend <li>Node.js</li><li>.NET</li><li>Gin</li><li>Django+REST</li><li>APIs</li><li>OAuth2</li></ul>
-                <ul className={homeStyles.skills}>Database <li>SQL</li><li>PostgreSQL</li><li>MySQL</li><li>DynamoDB</li></ul>
-                <ul className={homeStyles.skills}>Cloud(AWS) <li>Lambda</li><li>IAM</li><li>Cognito</li><li>API Gateway</li></ul> 
-                <ul className={homeStyles.skills}>Testing <li>Postman</li><li>Jest</li><li>Cypress</li><li>Fuzzing</li></ul>
+                <ul className={homeStyles.skills}>Languages <li>Javascript</li><li>Python</li><li>Go</li></ul>
+                <ul className={homeStyles.skills}>Frontend <li>React</li><li>NextJS</li><li>HTML</li><li>CSS</li><li>Redux</li><li>Bootstrap</li></ul> 
+                <ul className={homeStyles.skills}>Backend <li>Node.js</li><li>Gin</li><li>Django</li><li>REST APIs</li></ul>
+                <ul className={homeStyles.skills}>Database <li>SQL</li><li>PostgreSQL</li><li>DynamoDB</li></ul>
+                <ul className={homeStyles.skills}>Cloud(AWS) <li>Lambda</li><li>Cognito</li><li>API Gateway</li></ul> 
+                <ul className={homeStyles.skills}>Testing <li>Postman</li><li>Jest</li><li>Cypress</li></ul>
                 <ul className={homeStyles.skills}>Collab <li>GIT</li><li>GitHub</li><li>Agile</li><li>Trello</li></ul>
               </div>
             </div>
