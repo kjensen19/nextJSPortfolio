@@ -54,7 +54,7 @@ export default function Home({ allPostsData }) {
           <p className={homeStyles.content}>Hi, my name is Kyle. I am a software engineer, a collector of information only useful for crossword puzzles, and a lover of the oxford comma.</p>
           <p className={homeStyles.quote}>One learns by doing a thing; for though you think you know it, you have no certainty until you try.<br></br> ―Sophocles</p> 
             <div className={homeStyles.skillsContainer}>
-              <header className={utilStyles.heading2Xl} id={homeStyles.resume}><a download href={'KyleJensenResume.pdf'}>Resume</a></header>
+              <header className={utilStyles.heading2Xl} id={homeStyles.resume}><a className={homeStyles.tooltip} download href={'KyleJensenResume.pdf'}>Resume<span className={homeStyles.tooltiptext}>&#60;-Click to download!</span></a></header>
               <div className={homeStyles.skillsLists}>
                 <ul className={homeStyles.skills}>Languages <li>Javascript</li><li>Python</li><li>Go</li></ul>
                 <ul className={homeStyles.skills}>Frontend <li>React</li><li>NextJS</li><li>HTML/CSS</li><li>Redux</li><li>Bootstrap</li></ul> 
