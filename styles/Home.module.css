@@ -191,6 +191,17 @@
 
 
 @media (max-width: 600px) {
+
+  .tooltip{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .tooltip .tooltiptext {
+    visibility: visible;
+    position: relative;
+  }
   .grid {
     width: 100%;
     flex-direction: column;
