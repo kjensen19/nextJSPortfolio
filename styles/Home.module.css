@@ -161,7 +161,7 @@
 #resume:hover{
   transform: scale(1.5);
   transition: transform 500ms ease-out;
-
+  text-decoration: underline;
 }
 
 @media (max-width: 600px) {
